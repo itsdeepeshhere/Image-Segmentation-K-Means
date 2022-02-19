@@ -1,19 +1,8 @@
-# Image Segmentation using [k-means clustering](https://en.wikipedia.org/wiki/K-means_clustering)
+# Image Segmentation using k-means 
+Image segmentation is the process of dividing an image into groups in order to appropriately identify the pixels in a decision-making application. It separates a picture into a number of distinct sections with high similarity between pixels in each and high contrast between regions.
 
-The program reads in an image, segments it using K-Means clustering and outputs the segmented image.
+There are a variety of image segmentation methods, but clustering is one of the most efficient. It is a widely used technique in the machine learning field.
 
-```python imageSegmentation.py K inputImageFilename outputImageFilename```
+K-Means Clustering is an unsupervised learning technique
 
-It is worth playing with the number of iterations, low numbers will run quicker.
-
-The result is an over-segmented image. With the correct parameters, it can be used to partition an image for further processing. Here is an example of that: [Make3D](http://make3d.cs.cornell.edu/index.html)
-
-## Output
-![Burma](output/burma.jpg)
-![Burma](output/burma-segmented.jpg)
-
-![Duomo](output/duomo.jpg)
-![Duoma](output/duomo-segmented.jpg)
-
-![tunnel](output/tunnel.png)
-![tunnel](output/tunnel-segmented.png)
+**First, make sure you have all of the required Python libraries loaded on your system**
